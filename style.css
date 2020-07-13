@@ -120,3 +120,52 @@ hr {
 .credit {
   font-size: 12px;
 }
+
+.server-link{
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 14vw;
+  }
+  
+  .images{
+    height: 10vh;
+    width: auto;
+  }
+
+  .credit{
+    font-size: 22px;
+  }
+
+  .showcaseimg{
+    width: 80vw;
+    height: auto;
+    text-align: center;
+  }
+
+  .invite-link{
+    font-size: 8vw;
+  }
+
+  .showcase1 {
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .showcase2 {
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .showcase3 {
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .server{
+    font-size: 5vw;
+    margin-bottom: 2vh;
+  }
+}
